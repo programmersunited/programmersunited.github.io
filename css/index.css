@@ -1,0 +1,41 @@
+#header-bg-img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/main_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+#header-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 12.5em;
+    color: white;
+    z-index: 2;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#nav-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 64px;
+}
+
+#nav-icon img {
+
+}
+
+#github-banner {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
